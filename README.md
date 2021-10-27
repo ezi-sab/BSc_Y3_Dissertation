@@ -1,28 +1,28 @@
-#Final Year Project
+# Final Year Project
 --------------------------------------
 
-##Weekly Progress
-*Semester 1
-    *Week01
+## Weekly Progress
+* Semester 1
+    * Week01
 
-    *Week02
+    * Week02
 
-    *Week03
+    * Week03
 
-    *Week04
+    * Week04
 
-    *Week05
+    * Week05
 
-    *Week06
+    * Week06
 
-    *Week07
+    * Week07
 
-    *Week08
+    * Week08
 
-    *Week09
+    * Week09
 
-    *Week10
+    * Week10
 
-    *Week11
+    * Week11
 
-*Semester 2
+* Semester 2
