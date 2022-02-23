@@ -3,9 +3,38 @@
 
 # # Serotype data
 
+# In[ ]:
+
+
+
+
+
+# In[4]:
+
+
+#Encode
+#(nameOfSerotype) = {
+#    'genes': [-],
+    # we read the sugar sequences from right to left
+#    'sugars': [n],
+#    'side branches': [n], //ignore bond of side branches
+#    'modifications': [n],
+#    'bonds': [n-1]
+#}
+
+
+# In[5]:
+
+
+
+
+
+# In[6]:
+
+
 # serotype 1
 ser_1 = {
-    'genes': ['wzg','wzh','wzd','wze','wchB','wchC','wchD','wzy','wzx','gla','ugd','rmlA','rmlC','rmlB','rmlD','tnp','aliA'],
+    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchB', 'wchC', 'wchD', 'wzy', 'wzx', 'gla', 'ugd', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
     'sugars': ['2-acetamido-4-amino-2,4,6-trideoxygalactose', 'galacturonic acid', 'galacturonic acid'],
     'modifications': ['', '', ''],
     'bonds': ['a1-3', 'a1-3']
@@ -39,7 +68,7 @@ ser_4 = {
 ser_5 = {
     'genes': ['wzg', 'wzh', 'wzd','wze', 'wciI', 'wciJ', 'wzy', 'wzx', 'whaC', 'whaD', 'whaE', 'fnlA', 'ugd', 'fnlB', 'fnlC', 'tnp', 'tnp', 'tnp', 'aliA'],
     'sugars': ['4-keto-N-acetyl-D-quinovosamine','N-acetylfucosamine','glucose'],
-    'side branches': ['', 'P-glucuronic acid', ''],
+    'side branches': ['', 'P-glucuronic acid-PrepNAc', ''],
     'modifications': ['', '', ''],
     'bonds': ['a1-3', 'b1-4']
 }
@@ -115,7 +144,7 @@ ser_9A = {
 ser_9L = {
     'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchO', 'wcjA', 'mnaA', 'wzy', 'wcjB', 'wzx', 'wcjC', 'ugd', 'tnp', 'wcjE', 'aliA'],
     'sugars': ['glucose', 'N-acetylmannosamine', 'galactose', 'glucuronic acid', 'N-acetylglucosamine'],
-    'modifications': ['', '', '', ''],
+    'modifications': ['', '', '', '', ''],
     'bonds': ['b1-4', 'a1-3', 'a1-3', 'a1-4']
 }
 
@@ -123,7 +152,7 @@ ser_9L = {
 ser_9N = {
     'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchO', 'wcjA', 'mnaA', 'wzy', 'wcjB', 'wzx', 'wcjC', 'ugd', 'tnp', 'wcjE', 'aliA'],
     'sugars': ['glucose', 'N-acetylmannosamine', 'glucose', 'glucuronic acid', 'N-acetylglucosamine'],
-    'modifications': ['', '', '', ''],
+    'modifications': ['', '', '', '', ''],
     'bonds': ['b1-4', 'a1-3', 'a1-3', 'a1-4']
 }
 
@@ -131,7 +160,7 @@ ser_9N = {
 ser_9V = {
     'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchO', 'wcjA', 'mnaA', 'wzy', 'wcjB', 'wzx', 'wcjC', 'wcjD', 'ugd', 'wcjE', 'aliA'],
     'sugars': ['glucose', 'N-acetylmannosamine', 'galactose', 'glucuronic acid', 'glucose'],
-    'modifications': ['', '', '', ''],
+    'modifications': ['', '6Ac4Ac', '', '3Ac2Ac', '3Ac2Ac'],
     'bonds': ['b1-4', 'a1-3', 'a1-3', 'a1-4']
 }
 
@@ -326,7 +355,7 @@ ser_18F = {
     'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'wciU', 'wcxM', 'wciV', 'wciW', 'wzx', 'wzy', 'wciX', 'wciY', 'gct', 'HG94', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf', 'aliA'],
     'sugars': ['glucose', 'rhamnose', 'glucose', 'galactose', 'glucose'],
     'side branches': ['', '', '', 'glycerol', ''],
-    'modifications': ['', '2Ac', '', '', ''],
+    'modifications': ['', '2Ac', '', '', '6Ac'],
     'bonds': ['b1-4', 'a1-3', 'b1-4', 'a1-2']
 }
 
@@ -353,7 +382,7 @@ ser_18C = {
     'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'wciU', 'wciV', 'wciW', 'wzx', 'wzy', 'wciX', 'wciY', 'gct', 'HG94', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf', 'aliA'],
     'sugars': ['glucose', 'rhamnose', 'glucose', 'galactose', 'glucose'],
     'side branches': ['', '', '', 'glycerol', ''],
-    'modifications': ['', '', '', '', ''],
+    'modifications': ['', '', '', '', '6Ac0.3'],
     'bonds': ['b1-4', 'a1-3', 'b1-4', 'a1-2']
 }
 
