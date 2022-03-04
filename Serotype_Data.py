@@ -26,7 +26,41 @@
 # In[5]:
 
 
-
+# serotype 7C - No structure
+# serotype 10B - No structure
+# serotype 10C - No structure
+# serotype 11D - No structure
+# serotype 12B - No structure
+# serotype 16F - No structure
+# serotype 16A - No structure
+# serotype 21 - No structure
+# serotype 22A - No structure
+# serotype 23A - No structure
+# serotype 24F - No structure
+# serotype 24A - No structure
+# serotype 24B - No structure
+# serotype 25F - No structure
+# serotype 25A - No structure
+# serotype 28F - No structure
+# serotype 28A - No structure
+# serotype 33A - No structure
+# serotype 33C - No structure
+# serotype 33D - No structure
+# serotype 35F - No structure
+# serotype 35C - No structure
+# serotype 36 - No structure
+# serotype 38 - No structure
+# serotype 39 - No structure
+# serotype 40 - No structure
+# serotype 41F - No structure
+# serotype 41A - No structure
+# serotype 42 - No structure
+# serotype 43 - No structure
+# serotype 44 - No structure
+# serotype 46 - No structure
+# serotype 47F - No structure
+# serotype 47A - No structure
+# serotype 48 - No structure
 
 
 # In[2]:
@@ -36,7 +70,7 @@
 
 # serotype 1
 ser_1 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchB', 'wchC', 'wchD', 'wzy', 'wzx', 'gla', 'ugd', 'rmlA', 'rmlC', 'rmlB', 'rmlD-', 'tnp', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchB', 'wchC', 'wchD', 'wzy', 'wzx', 'gla', 'ugd', 'rmlA', 'rmlC', 'rmlB', 'rmlD-', 'tnp', 'aliA'],
     'sugars': ['2-acetamido-4-amino-2,4,6-trideoxygalactose', 'galacturonic acid', 'galacturonic acid'],
     'modifications': ['', '', ''],
     'bonds': ['a1-3', 'a1-3']
@@ -44,7 +78,7 @@ ser_1 = {
 
 # serotype 2
 ser_2 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wchF', 'wchG', 'wchH', 'wzy', 'wchI', 'wzx', 'ugd', 'glf-', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'wchG', 'wchH', 'wzy', 'wchI', 'wzx', 'ugd', 'glf-', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
     'sugars': ['glucose', 'rhamnose', 'rhamnose', 'rhamnose', 'glucose', 'glucuronic acid'],
     'modifications': ['', '', '', '','',''],
     'bonds': ['b1-4', 'a1-3', 'a1-3', 'a1-2', 'a1-6']
@@ -60,7 +94,7 @@ ser_3 = {
 
 # serotype 4
 ser_4 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'HG261-', 'wciI', 'wciJ', 'wciK', 'wciL', 'wzy', 'wciM', 'wzx', 'mnaA', 'fnlA', 'fnlB', 'fnlC', 'tnp', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'HG261-', 'wciI', 'wciJ', 'wciK', 'wciL', 'wzy', 'wciM', 'wzx', 'mnaA', 'fnlA', 'fnlB', 'fnlC', 'tnp', 'aliA'],
     'sugars': ['N-acetylgalactosamine', 'N-acetylfucosamine', 'N-acetylmannosamine', 'galactose', 'pyruvate'],
     'modifications': ['', '', '', '',''],
     'bonds': ['a1-3', 'b1-3', 'a1-3', '2,3(S)']
@@ -68,7 +102,7 @@ ser_4 = {
 
 # serotype 5
 ser_5 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wciI', 'wciJ', 'wzy', 'wzx', 'whaC', 'whaD', 'whaE', 'fnlA', 'ugd', 'fnlB', 'fnlC', 'tnp', 'tnp', 'tnp', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wciI', 'wciJ', 'wzy', 'wzx', 'whaC', 'whaD', 'whaE', 'fnlA', 'ugd', 'fnlB', 'fnlC', 'tnp', 'tnp', 'tnp', 'aliA'],
     'sugars': ['4-keto-N-acetyl-D-quinovosamine','N-acetylfucosamine','glucose'],
     'side branches': ['', 'P-glucuronic acid', ''],
     'modifications': ['', '', ''],
@@ -78,7 +112,7 @@ ser_5 = {
 # serotype 6A
 
 ser_6A = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciN', 'HG262-', 'wciO', 'wciP', 'wzy', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciN', 'HG262-', 'wciO', 'wciP', 'wzy', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
     'sugars': ['glucose', 'galactose', 'ribitol', 'rhamnose'],
     'modifications': ['', '', '', ''],
     'bonds': ['a1-3', '5-P-2', 'a1-3']
@@ -87,7 +121,7 @@ ser_6A = {
 # serotype 6B
 
 ser_6B = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciN', 'HG263-', 'wciO', 'wciP', 'wzy', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciN', 'HG263-', 'wciO', 'wciP', 'wzy', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'aliA'],
     'sugars': ['glucose', 'galactose', 'ribitol', 'rhamnose'],
     'modifications': ['', '', '', ''],
     'bonds': ['a1-3', '5-P-2', 'a1-4']
@@ -95,7 +129,7 @@ ser_6B = {
 
 # serotype 7F
 ser_7F = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wchF', 'wcwA', 'wcwC', 'wcwD', 'HG140-', 'wcwF', 'wcwG', 'wcwH', 'wzy', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'tnp', 'aliA'], 
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'wcwA', 'wcwC', 'wcwD', 'HG140-', 'wcwF', 'wcwG', 'wcwH', 'wzy', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'tnp', 'aliA'], 
     'sugars': ['glucose', 'rhamnose', 'galactose', 'N-acetylgalactosamine', 'rhamnose', 'N-acetylglucosamine'],
     'side branches': ['', '', 'P-galactose', '', '', ''],
     'modifications': ['', '2Ac', '', '', '', ''],
@@ -104,7 +138,7 @@ ser_7F = {
 
 # serotype 7A
 ser_7A = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wchF', 'wcwA', 'wcwC', 'wcwD-', 'HG140-', 'wcwF', 'wcwG', 'wcwH', 'wzy', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'tnp', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'wcwA', 'wcwC', 'wcwD-', 'HG140-', 'wcwF', 'wcwG', 'wcwH', 'wzy', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'tnp', 'aliA'],
     'sugars': ['glucose', 'rhamnose', 'galactose', 'N-acetylgalactosamine', 'rhamnose', 'N-acetylglucosamine'],
     'side branches': ['', '', '', '', '', ''],
     'modifications': ['', '2Ac', '', '', '', ''],
@@ -113,7 +147,7 @@ ser_7A = {
 
 # serotype 7B
 ser_7B = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wchF', 'wcwI', 'wcwL', 'wcwK', 'wcxU', 'wzy', 'rsbF', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'wcwI', 'wcwL', 'wcwK', 'wcxU', 'wzy', 'rsbF', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'aliA'],
     'sugars': ['glucose', 'rhamnose', 'rhamnose', 'N-acetylglucosamine', 'glucose', 'rhamnose', 'ribose-f'],
     'side branches': ['', '', '', '', '', ''],
     'modifications': ['', '', '', '', '', '', ''],
@@ -524,7 +558,7 @@ ser_25A = {
 
 # serotype 27
 ser_27 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wchF', 'whaK', 'wzy', 'whaL', 'wzx', 'wcyS', 'wcrN', 'HG270-', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'whaK', 'wzy', 'whaL', 'wzx', 'wcyS', 'wcrN', 'HG270-', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
     'sugars': ['glucose', 'rhamnose', 'galactose', 'N-acetylglucosamine', 'pyruvate'],
     'side branches': ['', 'choline', '', '', ''],
     'modifications': ['', '', '', '', ''],
@@ -533,7 +567,7 @@ ser_27 = {
 
 # serotype 28F - No structure
 ser_28F = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wchF', 'wciU', 'wcxM', 'wcxN', 'wzy', 'wcxP', 'wzx', 'wcxQ', 'gtp1', 'gtp2', 'gtp3', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'wciU', 'wcxM', 'wcxN', 'wzy', 'wcxP', 'wzx', 'wcxQ', 'gtp1', 'gtp2', 'gtp3', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -549,7 +583,7 @@ ser_28A = {
 
 # serotype 29
 ser_29 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wcjH', 'wciB', 'wzy', 'wcrJ', 'wcrM', 'wcrH', 'wzx', 'glf', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wcjH', 'wciB', 'wzy', 'wcrJ', 'wcrM', 'wcrH', 'wzx', 'glf', 'aliA'],
     'sugars': ['galactose', 'galactose', 'N-acetylgalactosamine', 'ribitol', 'galactose'],
     'modifications': ['', '', '', '', ''],
     'bonds': ['b1-3', 'b1-6', '5-P-4', 'b1-1']
@@ -557,7 +591,7 @@ ser_29 = {
 
 # serotype 31
 ser_31 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wcjG', 'wciB', 'wcrP', 'wcrR', 'wzy', 'wcrW', 'wzx', 'wcrX', 'ugd', 'glf', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf', 'wcjE', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wcjG', 'wciB', 'wcrP', 'wcrR', 'wzy', 'wcrW', 'wzx', 'wcrX', 'ugd', 'glf', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf', 'wcjE', 'aliA'],
     'sugars': ['galactose', 'glucuronic acid', 'rhamnose', 'galactose', 'rhamnose'],
     'modifications': ['', '', '', '', ''],
     'bonds': ['b1-3', 'b1-4', 'b1-3', 'b1-3']
@@ -565,7 +599,7 @@ ser_31 = {
 
 # serotype 32F
 ser_32F = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wchF', 'wcyH', 'wzy', 'wcyI', 'wchQ', 'wzx', 'wcyS', 'wcrN', 'HG272-', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'wcyH', 'wzy', 'wcyI', 'wchQ', 'wzx', 'wcyS', 'wcrN', 'HG272-', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
     'sugars': ['glucose', 'rhamnose', 'glucose', 'rhamnose'],
     'side branches': ['', 'choline', '', ''],
     'modifications': ['', '2Ac', '', ''],
@@ -574,7 +608,7 @@ ser_32F = {
 
 # serotype 32A
 ser_32A = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wchF', 'wcyH', 'wzy', 'wcyI', 'wchQ', 'wzx', 'wcyS', 'wcrN', 'HG271-', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'wcyH', 'wzy', 'wcyI', 'wchQ', 'wzx', 'wcyS', 'wcrN', 'HG271-', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
     'sugars': ['glucose', 'rhamnose', 'glucose', 'rhamnose'],
     'side branches': ['', 'choline', '', ''],
     'modifications': ['', '2Ac', '4Ac', ''],
@@ -583,7 +617,7 @@ ser_32A = {
 
 # serotype 33F
 ser_33F = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciB', 'wciC', 'wciD', 'wciE', 'wciF', 'wzy', 'wzx', 'wciG*', 'glf', 'wcjE-', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciB', 'wciC', 'wciD', 'wciE', 'wciF', 'wzy', 'wzx', 'wciG*', 'glf', 'wcjE-', 'aliA'],
     'sugars': ['glucose', 'galactose', 'galactose', 'galactose', 'galactose'],
     'side branches': ['', '', 'P-galactose', '', ''],
     'modifications': ['', '2Ac0.4', '', '', ''],
@@ -592,7 +626,7 @@ ser_33F = {
 
 # serotype 33A - No structure
 ser_33A = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciB', 'wciC', 'wciD', 'wciE', 'wciF', 'wzy', 'wzx', 'wciG', 'glf', 'wcjE', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciB', 'wciC', 'wciD', 'wciE', 'wciF', 'wzy', 'wzx', 'wciG', 'glf', 'wcjE', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -600,7 +634,7 @@ ser_33A = {
 
 # serotype 33B
 ser_33B = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciN', 'wciO', 'wcrC', 'wciD', 'wciE', 'wciF', 'wzy', 'wzx', 'wciG', 'glf', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciN', 'wciO', 'wcrC', 'wciD', 'wciE', 'wciF', 'wzy', 'wzx', 'wciG', 'glf', 'aliA'],
     'sugars': ['glucose', 'ribitol', 'galactose', 'N-acetylgalactosamine', 'galactose'],
     'side branches': ['', '', 'P-galactose', '', ''],
     'modifications': ['', '', '', '', ''],
@@ -609,7 +643,7 @@ ser_33B = {
 
 # serotype 33C - No structure
 ser_33C = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wcjG', 'wciN', 'wcrO', 'wcrC', 'wcrD', 'wciF', 'wzy', 'wzx', 'glf', 'wcyO', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wcjG', 'wciN', 'wcrO', 'wcrC', 'wcrD', 'wciF', 'wzy', 'wzx', 'glf', 'wcyO', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -617,7 +651,7 @@ ser_33C = {
 
 # serotype 33D - No structure
 ser_33D = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciN', 'wciO', 'wcrC', 'wciD', 'wciF', 'wzy', 'wzx', 'wciG', 'glf', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciN', 'wciO', 'wcrC', 'wciD', 'wciF', 'wzy', 'wzx', 'wciG', 'glf', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -625,7 +659,7 @@ ser_33D = {
 
 # serotype 34
 ser_34 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciB', 'wzy', 'wcrO', 'wcrC', 'wcrD', 'wzx', 'glf', 'wcyO', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciB', 'wzy', 'wcrO', 'wcrC', 'wcrD', 'wzx', 'glf', 'wcyO', 'aliA'],
     'sugars': ['glucose', 'galactose', 'ribitol', 'galactose', 'galactose'],
     'modifications': ['', '', '', '', '6Ac0.5'],
     'bonds': ['b1-3', '5-P-3', 'a1-2', 'b1-3']
@@ -641,7 +675,7 @@ ser_35F = {
 
 # serotype 35A
 ser_35A = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciB', 'wzy', 'wcrI', 'wcrJ', 'wcrK-', 'mnp1', 'wcrH', 'mnp2', 'wzx', 'wciG', 'glf', 'wcjE', 'tnp', 'tnp', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciB', 'wzy', 'wcrI', 'wcrJ', 'wcrK-', 'mnp1', 'wcrH', 'mnp2', 'wzx', 'wciG', 'glf', 'wcjE', 'tnp', 'tnp', 'aliA'],
     'sugars': ['glucose', 'galactose', 'galactose', 'mannitol', 'galactose'],
     'modifications': ['', '5,6Ac2', '', '', '2Ac'],
     'bonds': ['b1-3', 'b1-3', '6-P-3', 'b1-1']
@@ -649,7 +683,7 @@ ser_35A = {
 
 # serotype 35B
 ser_35B = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciB', 'wzy', 'wcrJ', 'wcrM', 'wcrH', 'tnp', 'wzx', 'wciG', 'glf', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciB', 'wzy', 'wcrJ', 'wcrM', 'wcrH', 'tnp', 'wzx', 'wciG', 'glf', 'aliA'],
     'sugars': ['glucose', 'galactose', 'N-acetylgalactosamine', 'ribitol', 'galactose'],
     'modifications': ['', '', '', '', '2Ac0.7'],
     'bonds': ['b1-3', 'b1-6', '5-P-4', 'b1-1']
@@ -657,7 +691,7 @@ ser_35B = {
 
 # serotype 35C - No structure
 ser_35C = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciB', 'wzy', 'wcrI', 'wcrJ', 'wcrK', 'mnp1', 'wcrH', 'mnp2', 'wzx', 'wciG', 'glf', 'wcjE', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciB', 'wzy', 'wcrI', 'wcrJ', 'wcrK', 'mnp1', 'wcrH', 'mnp2', 'wzx', 'wciG', 'glf', 'wcjE', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -665,7 +699,7 @@ ser_35C = {
 
 # serotype 36 - No structure
 ser_36 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wcrO', 'wchO', 'wcjA', 'mnaA', 'wciF', 'wzx', 'wzy', 'glf', 'wcrH', 'tnp', 'tnp', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wcrO', 'wchO', 'wcjA', 'mnaA', 'wciF', 'wzx', 'wzy', 'glf', 'wcrH', 'tnp', 'tnp', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -689,7 +723,7 @@ ser_38 = {
 
 # serotype 39 - No structure
 ser_39 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wcjH', 'wciB', 'whaI', 'wciE-', 'wcrC', 'wcrD', 'wciF', 'wzy', 'wcrG', 'wzx', 'glf', 'wcyO', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wcjH', 'wciB', 'whaI', 'wciE-', 'wcrC', 'wcrD', 'wciF', 'wzy', 'wcrG', 'wzx', 'glf', 'wcyO', 'aliA'] #,
 #    'sugars': ['', '', '', ''],
 #    'modifications': ['', '', '', ''],
 #    'bonds': ['', '', '', '']
@@ -697,7 +731,7 @@ ser_39 = {
 
 # serotype 40 - No structure
 ser_40 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wchF', 'wcwI', 'wcwL', 'wcwK', 'wcxU', 'wzy', 'rbsF', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'wcwI', 'wcwL', 'wcwK', 'wcxU', 'wzy', 'rbsF', 'wzx', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -705,7 +739,7 @@ ser_40 = {
 
 # serotype 41F - No structure
 ser_41F = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciB', 'wcrP', 'wcrQ', 'wcrR', 'wzy', 'wcrW', 'wzx', 'wcrX', 'ugd', 'glf', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciB', 'wcrP', 'wcrQ', 'wcrR', 'wzy', 'wcrW', 'wzx', 'wcrX', 'ugd', 'glf', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'glf-', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': [n]
@@ -713,7 +747,7 @@ ser_41F = {
 
 # serotype 41A - No structure
 ser_41A = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciB', 'wcrP', 'wcrQ', 'wcrR', 'wzy', 'wcrW', 'wzx', 'wcrX-', 'ugd', 'glf', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciB', 'wcrP', 'wcrQ', 'wcrR', 'wzy', 'wcrW', 'wzx', 'wcrX-', 'ugd', 'glf', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -721,7 +755,7 @@ ser_41A = {
 
 # serotype 42 - No structure
 ser_42 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wciB', 'wzy', 'wcrI', 'wcrJ', 'wcrK', 'mnp1', 'wcrH', 'mnp2', 'wzx', 'wciG', 'glf', 'wcjE', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wciB', 'wzy', 'wcrI', 'wcrJ', 'wcrK', 'mnp1', 'wcrH', 'mnp2', 'wzx', 'wciG', 'glf', 'wcjE', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -729,7 +763,7 @@ ser_42 = {
 
 # serotype 43 - No structure
 ser_43 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wcjH', 'wciB', 'whaI', 'wciE', 'wcrC', 'wcyN', 'wcrH', 'wcyO', 'wcyP', 'wzx', 'glf', 'wcjE', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wcjH', 'wciB', 'whaI', 'wciE', 'wcrC', 'wcyN', 'wcrH', 'wcyO', 'wcyP', 'wzx', 'glf', 'wcjE', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -737,7 +771,7 @@ ser_43 = {
 
 # serotype 44 - No structure
 ser_44 = { 
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wciI', 'wciJ', 'wcxB', 'wzy', 'wcxD', 'wcxE', 'wcxF', 'wzx', 'mnaB', 'mnaA', 'fnlA-', 'fnlB', 'fnlC', 'tnp', 'tnp', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wciI', 'wciJ', 'wcxB', 'wzy', 'wcxD', 'wcxE', 'wcxF', 'wzx', 'mnaB', 'mnaA', 'fnlA-', 'fnlB', 'fnlC', 'tnp', 'tnp', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -745,7 +779,7 @@ ser_44 = {
 
 # serotype 45
 ser_45 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wciI', 'wciJ', 'wcxB', 'wciL', 'wcyQ', 'wcxS', 'wzx', 'wzy', 'wcyR', 'gct', 'fnlA', 'fnlB', 'fnlC', 'HG273-', 'tnp', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wciI', 'wciJ', 'wcxB', 'wciL', 'wcyQ', 'wcxS', 'wzx', 'wzy', 'wcyR', 'gct', 'fnlA', 'fnlB', 'fnlC', 'HG273-', 'tnp', 'rmlA', 'rmlC', 'rmlB', 'rmlD', 'tnp', 'aliA'],
     'sugars': ['N-acetylgalactosamine', 'N-acetylfucosamine', 'galactose', 'rhamnose'],
     'side branches': ['', 'P-N-acetylglucosamine', 'P-galactose', ''],
     'modifications': ['', '', '', ''],
@@ -754,7 +788,7 @@ ser_45 = {
 
 # serotype 46 - No structure
 ser_46 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'tnp', 'wciI', 'wciJ', 'wcxB', 'wzy', 'wcxD', 'wcxE', 'wcxF', 'wzx', 'mnaB', 'mnaA', 'fnlA', 'fnlB', 'fnlC', 'tnp', 'tnp', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'tnp', 'wciI', 'wciJ', 'wcxB', 'wzy', 'wcxD', 'wcxE', 'wcxF', 'wzx', 'mnaB', 'mnaA', 'fnlA', 'fnlB', 'fnlC', 'tnp', 'tnp', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -762,7 +796,7 @@ ser_46 = {
 
 # serotype 47F - No structure
 ser_47F = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wcjH', 'wciB', 'wzy', 'whaI', 'wcrC', 'wcrD', 'wzx', 'wciG', 'glf', 'wcjE', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wcjH', 'wciB', 'wzy', 'whaI', 'wcrC', 'wcrD', 'wzx', 'wciG', 'glf', 'wcjE', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -770,7 +804,7 @@ ser_47F = {
 
 # serotype 47A - No structure
 ser_47A = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wcjG', 'wciB', 'whaI', 'wcrC', 'wcyM', 'wzy', 'wcyN', 'whaM', 'wzx', 'glf', 'wcjE', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wcjG', 'wciB', 'whaI', 'wcrC', 'wcyM', 'wzy', 'wcyN', 'whaM', 'wzx', 'glf', 'wcjE', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
@@ -778,7 +812,7 @@ ser_47A = {
 
 # serotype 48 - No structure
 ser_48 = {
-    'genes': ['wzg', 'wzh', 'wzd','wze', 'wchA', 'wchF', 'wcxG', 'abp1', 'abp2', 'wcyS', 'wcwY', 'wzy', 'wzx', 'glf-', 'rmlA', 'rmlC','rmlB','rmlD', 'aliA'] #,
+    'genes': ['wzg', 'wzh', 'wzd', 'wze', 'wchA', 'wchF', 'wcxG', 'abp1', 'abp2', 'wcyS', 'wcwY', 'wzy', 'wzx', 'glf-', 'rmlA', 'rmlC','rmlB','rmlD', 'aliA'] #,
 #    'sugars': [''],
 #    'modifications': [''],
 #    'bonds': ['']
