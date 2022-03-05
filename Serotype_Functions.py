@@ -56,15 +56,15 @@ def compare_genes(list):
     for a in alignments: 
         print(format_alignment(*a, full_sequences=True))
 
-# def compare_sugars(list):
-#     try: 
-#         list[0]['sugars'] and list[1]['sugars']
-#         alignments = pairwise2.align.globalms(list[0]['sugars'], list[1]['sugars'], 2, -1, -2, -.1, gap_char=["-"], penalize_end_gaps=True)
+def compare_sugars(list):
+    try: 
+        list[0]['sugars'] and list[1]['sugars']
+        alignments = pairwise2.align.globalms(list[0]['sugars'], list[1]['sugars'], 2, -1, -2, -.1, gap_char=["-"], penalize_end_gaps=True)
 
-#         for a in alignments: 
-#             print(format_alignment(*a, full_sequences=True))
-#     except KeyError:
-#         print("** No sugar structure for one or both serotypes **")
+        for a in alignments: 
+            print(format_alignment(*a, full_sequences=True))
+    except KeyError:
+        print("** No sugar structure for one or both serotypes **")
 
 def compare_bonds(list):
     alignments = pairwise2.align.globalms(list[0]['bonds'], list[1]['bonds'], 2, -1, -2, -.1, gap_char=["-"], penalize_end_gaps=True)
