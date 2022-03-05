@@ -3,12 +3,6 @@
 
 # # Serotype data
 
-# In[ ]:
-
-
-
-
-
 # In[4]:
 
 
@@ -21,46 +15,6 @@
 #    'modifications': [n],
 #    'bonds': [n-1]
 #}
-
-
-# In[5]:
-
-
-# serotype 7C - No structure
-# serotype 10B - No structure
-# serotype 10C - No structure
-# serotype 11D - No structure
-# serotype 12B - No structure
-# serotype 16F - No structure
-# serotype 16A - No structure
-# serotype 21 - No structure
-# serotype 22A - No structure
-# serotype 23A - No structure
-# serotype 24F - No structure
-# serotype 24A - No structure
-# serotype 24B - No structure
-# serotype 25F - No structure
-# serotype 25A - No structure
-# serotype 28F - No structure
-# serotype 28A - No structure
-# serotype 33A - No structure
-# serotype 33C - No structure
-# serotype 33D - No structure
-# serotype 35F - No structure
-# serotype 35C - No structure
-# serotype 36 - No structure
-# serotype 38 - No structure
-# serotype 39 - No structure
-# serotype 40 - No structure
-# serotype 41F - No structure
-# serotype 41A - No structure
-# serotype 42 - No structure
-# serotype 43 - No structure
-# serotype 44 - No structure
-# serotype 46 - No structure
-# serotype 47F - No structure
-# serotype 47A - No structure
-# serotype 48 - No structure
 
 
 # In[2]:
