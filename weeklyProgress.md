@@ -32,15 +32,15 @@
     * Week01
         > Refine the topic of final year project
     * Week02
-        > Build 'Serotype_Data' _Build the dataset file as python file
+        > 'Serotype_Data' _Build the dataset file as python file
         
-        > Build 'Serotype_Comparison' _Compare the serotypes using 'Serotype_Data'
+        > 'Serotype_Comparison' _Compare the serotypes using 'Serotype_Data'
     * Week03
-        > Build 'Serotype_Mapping' _Start to find the rules between serotypes
+        > 'Serotype_Mapping' _Start to find the rules between serotypes
     * Week04
-        > Build 'Serotype_RuleFinder' _Declaration of rules between serotypes
+        > 'Serotype_RuleFinder' _Declaration of rules between serotypes
     * Week05
-
+    	> Build the files which consist of functions I need for the project
     * Week06
 
     * Week07
