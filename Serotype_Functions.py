@@ -116,14 +116,5 @@ def show_compare(h_sequence, v_sequence, data, hide_zeros=False, nonzero_val=Non
 # In[19]:
 
 
-def predict_sugars(gene_list):
-    updated_list = gene_list[:]
-    sugars = []
-    for gene in simplify_genes(updated_list):
-        if gene in rules:
-            sugars.append(rules[gene])
-            updated_list.remove(gene)
-        else:
-            sugars.append('?')
-    return sugars, updated_list
+
 
