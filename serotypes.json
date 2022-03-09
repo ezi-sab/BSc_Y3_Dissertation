@@ -30,7 +30,7 @@
     "ser_5" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wciI", "wciJ", "wzy", "wzx", "whaC", "whaD", "whaE", "fnlA", "ugd", "fnlB", "fnlC", "tnp", "tnp", "tnp", "aliA"],
         "sugars": ["4-keto-N-acetyl-D-quinovosamine", "N-acetylfucosamine", "glucose"],
-        "side branches": ["", "P-glucuronic acid", ""],
+        "side branches": ["", "side_P-glucuronic acid", ""],
         "modifications": ["", "", ""],
         "bonds": ["a1-3", "b1-4"]
     },
@@ -52,7 +52,7 @@
     "ser_7F" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "wcwA", "wcwC", "wcwD", "HG140-", "wcwF", "wcwG", "wcwH", "wzy", "wzx", "rmlA", "rmlC", "rmlB", "rmlD", "glf-", "tnp", "aliA"], 
         "sugars": ["glucose", "rhamnose", "galactose", "N-acetylgalactosamine", "rhamnose", "N-acetlglucosamine"],
-        "side branches": ["", "", "P-galactose", "", "", ""],
+        "side branches": ["", "", "side_P-galactose", "", "", ""],
         "modifications": ["", "2Ac", "", "", "", ""],
         "bonds": ["b1-4", "a1-3", "b1-6", "a1-4", "a1-2"]
     },
@@ -118,7 +118,7 @@
     "ser_10F" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wcjG", "wciB", "wzy", "wcrB", "wcrC", "wcrD-", "wciF", "wzx", "wciG", "glf", "wcrH", "aliA"],
         "sugars": ["galactose", "galactose", "ribitol", "galactose", "N-acetylgalactosamine"],
-        "side branhes": ["", "", "", "F-galactose", ""],
+        "side branhes": ["", "", "", "side_F-galactose", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["b1-3", "5-P-6", "a1-2", "b1-3"]
     },
@@ -126,7 +126,7 @@
     "ser_10A" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wcjG", "wciB", "wzy", "wcrB", "wcrC", "wcrD", "wciF", "wcrG", "wzx", "glf", "aliA"],
         "sugars": ["galactose", "galactose", "ribitol", "galactose", "N-acetylgalactosamine", "galactose"],
-        "side branches": ["", "", "", "", "P-galactose", ""],
+        "side branches": ["", "", "", "", "side_P-galactose", ""],
         "modifications": ["", "", "", "", "", ""],
         "bonds": ["b1-3", "5-P-5", "a1-2", "b1-3", "b1-3"]
     },
@@ -183,7 +183,7 @@
     "ser_12F" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wciI", "wciJ", "wcxB", "wzy", "wcxD", "wcxE", "wcxF", "wzx", "mnaB", "mnaA", "fnlA", "fnlB", "fnlC", "tnp", "tnp", "aliA"],
         "sugars": ["N-acetylgalactosamine", "N-acetylfucosamine", "N-acetylmannosaminuronic acid", "glucose", "glucose"],
-        "side branches": ["", "P-galactose", "", "", ""],
+        "side branches": ["", "side_P-galactose", "", "", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["a1-3", "b1-4", "a1-3", "a1-2"]
     },
@@ -191,7 +191,7 @@
     "ser_12A" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "tnp", "wciI", "wciJ", "wcxB", "wzy", "wcxD", "wcxE", "wcxF", "wzx", "mnaB", "mnaA", "fnlA", "fnlB", "fnlC", "tnp", "tnp", "aliA"],
         "sugars": ["N-acetylgalactosamine", "N-acetylfucosamine", "N-acetylmannosaminuronic acid", "glucose", "glucose"],
-        "side branches": ["", "P-N-acetylgalactosamine", "", "", ""],
+        "side branches": ["", "side_P-N-acetylgalactosamine", "", "", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["a1-3", "b1-4", "a1-3", "a1-2"]
     },
@@ -220,7 +220,7 @@
     "ser_15F" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchJ", "wchK", "wzy", "wchL", "wchM", "wchN", "wzx", "wciZ", "wchX", "gtp1", "gtp2", "gtp3", "rmlB", "rmlD", "glf", "wcjE", "aliA"],
         "sugars": ["glucose", "galactose", "N-acetylglucosamine", "galactose", "galactose"],
-        "side branches": ["", "", "", "choline0.2", ""],
+        "side branches": ["", "", "", "side_choline0.2", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["b1-4", "b1-3", "b1-4", "a1-2"]
     },
@@ -228,7 +228,7 @@
     "ser_15A" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchJ", "wchK", "wzy", "wchL", "wchM", "wchN", "wzx", "wciZ-", "wchX", "gtp1", "gtp2", "gtp3", "tnp", "aliA"],
         "sugars": ["glucose", "galactose", "N-acetylglucosamine", "galactose", "galactose"],
-        "side branches": ["", "", "", "glycerol0.7", ""],
+        "side branches": ["", "", "", "side_glycerol0.7", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["b1-4", "b1-3", "b1-4", "a1-2"]
     },
@@ -236,7 +236,7 @@
     "ser_15B" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchJ", "wchK", "wzy", "wchL", "wchM", "wchN", "wzx", "wciZ", "wchX", "gtp1", "gtp2", "gtp3", "tnp", "aliA"],
         "sugars": ["glucose", "galactose", "N-acetylglucosamine", "galactose", "galactose"],
-        "side branches": ["", "", "", "choline0.2", ""],
+        "side branches": ["", "", "", "side_choline0.2", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["b1-4", "b1-3", "b1-4", "a1-2"]
     },
@@ -244,7 +244,7 @@
     "ser_15C" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchJ", "wchK", "wzy", "wchL", "wchM", "wchN", "wzx", "wciZ-", "wchX", "gtp1", "gtp2", "gtp3", "tnp", "aliA"],
         "sugars": ["glucose", "galactose", "N-acetylglucosamine", "galactose", "galactose"],
-        "side branches": ["", "", "", "choline", ""],
+        "side branches": ["", "", "", "side_choline", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["b1-4", "b1-3", "b1-4", "a1-2"]
     },
@@ -266,7 +266,7 @@
     "ser_17F" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "wcxG", "abp1", "abp2", "wciP", "wcrT", "wcrU", "wzy", "wcrV", "wzx", "rmlA", "rmlC", "rmlB", "rmlD", "glf-", "aliA"],
         "sugars": ["glucose", "rhamnose", "arabinitol", "rhamnose", "rhamnose", "galactose"],
-        "side branches": ["", "", "", "", "P-galactose", ""],
+        "side branches": ["", "", "", "", "side_P-galactose", ""],
         "modifications": ["", "", "", "", "2Ac", ""],
         "bonds": ["b1-4", "1-P-3", "a1-2", "b1-4", "a1-3"]
     },
@@ -274,7 +274,7 @@
     "ser_17A" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wciB", "wcrP", "wcrQ", "wcrR", "wcrT", "wcrU", "wcrV", "wzy", "wzx", "ugd", "glf", "rmlA", "rmlC", "rmlB", "rmlD", "glf-", "aliA"],
         "sugars": ["glucose", "galactose", "glucuronic acid", "rhamnose", "rhamnose", "galactose"],
-        "side branches": ["", "P-glucose", "", "", "P-galactose", ""],
+        "side branches": ["", "side_P-glucose", "", "", "side_P-galactose", ""],
         "modifications": ["", "", "", "", "2Ac", ""],
         "bonds": ["b1-3", "b1-3", "a1-4", "b1-4", "a1-3"]
     },
@@ -282,7 +282,7 @@
     "ser_18F" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "wciU", "wcxM", "wciV", "wciW", "wzx", "wzy", "wciX", "wciY", "gct", "HG94-", "rmlA", "rmlC", "rmlB", "rmlD", "glf-", "aliA"],
         "sugars": ["glucose", "rhamnose", "glucose", "galactose", "glucose"],
-        "side branches": ["", "", "", "glycerol", ""],
+        "side branches": ["", "", "", "side_glycerol", ""],
         "modifications": ["", "2Ac", "", "", ""],
         "bonds": ["b1-4", "a1-3", "b1-4", "a1-2"]
     },
@@ -290,7 +290,7 @@
     "ser_18A" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "wciU", "wciV", "wciW", "wzx", "wzy", "wciY", "gct", "HG94-", "rmlA", "rmlC", "rmlB", "rmlD", "tnp", "aliA"],
         "sugars": ["glucose", "rhamnose", "N-acetylglucosamine", "galactose", "glucose"],
-        "side branches": ["", "", "", "D-glycerol", ""],
+        "side branches": ["", "", "", "side_D-glycerol", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["b1-4", "a1-3", "b1-4", "a1-2"]
     },
@@ -298,7 +298,7 @@
     "ser_18B" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "wciU", "wciV", "wciW", "wzx", "wzy", "wciX-", "wciY", "gct", "HG94-", "rmlA", "rmlC", "rmlB", "rmlD", "glf-", "aliA"],
         "sugars": ["glucose", "rhamnose", "glucose", "galactose", "glucose"],
-        "side branches": ["", "", "", "D-glycerol", ""],
+        "side branches": ["", "", "", "side_D-glycerol", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["b1-4", "a1-3", "b1-4", "a1-2"]
     },
@@ -306,7 +306,7 @@
     "ser_18C" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "wciU", "wciV", "wciW", "wzx", "wzy", "wciX", "wciY", "gct", "HG94-", "rmlA", "rmlC", "rmlB", "rmlD", "glf-", "aliA"],
         "sugars": ["glucose", "rhamnose", "glucose", "galactose", "glucose"],
-        "side branches": ["", "", "", "glycerol", ""],
+        "side branches": ["", "", "", "side_glycerol", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["b1-4", "a1-3", "b1-4", "a1-2"]
     },
@@ -335,7 +335,7 @@
     "ser_19C" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchO", "wchP", "wchQ", "wchR", "wzy", "wchS", "rbsF", "wzx", "mnaA", "wchU", "HG264-",  "rmlA", "rmlC", "rmlB", "rmlD", "glf-", "aliA"],
         "sugars": ["glucose", "N-acetylmannosamine", "rhamnose", "N-acetylmannosamine", "rhamnose", "D-Ribf"],
-        "side branches": ["", "", "", "P-glucose", "", ""],
+        "side branches": ["", "", "", "side_P-glucose", "", ""],
         "modifications": ["", "", "", "", "", ""],
         "bonds": ["b1-4", "1-P-4", "b1-4", "a1-3", "b1-4"]
     },
@@ -349,15 +349,15 @@
     
     "ser_21" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "wcwA", "wcwK", "wcyT", "wcyU", "wzy", "wzx", "glf", "rmlA", "rmlC", "rmlB", "rmlD", "glf", "wcyO", "tnp", "aliA"],
-        "sugars": ["", "", "", ""],
-        "modifications": ["", "", "", ""],
-        "bonds":["", "", "", ""]
+        "sugars": [],
+        "modifications": [],
+        "bonds":[]
     },
     
     "ser_22F" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "wcwA", "wcwC", "ugd", "wcwV", "whaB", "wzy", "wcwX", "wzx", "glf", "rmlA", "rmlC", "rmlB", "rmlD", "glf-", "aliA"],
         "sugars": ["glucose", "rhamnose", "glucuronic acid", "rhamnose", "galactose"],
-        "side branches": ["", "P-glucose", "", "", ""],
+        "side branches": ["", "side_P-glucose", "", "", ""],
         "modifications": ["", "2AC0.8", "", "", ""],
         "bonds": ["b1-4", "b1-4", "a1-4", "a1-2"]
     },
@@ -372,7 +372,7 @@
     "ser_23F" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "wzy", "wchV", "wchW", "wzx", "wchX", "gtp1", "gtp2", "gtp3", "rmlA", "rmlC", "rmlB", "rmlD", "tnp", "aliA"],
         "sugars": ["glucose", "rhamnose", "galactose", "rhamnose"],
-        "side branches": ["", "", "glycerol", ""],
+        "side branches": ["", "", "side_glycerol", ""],
         "modifications": ["", "", "", ""],
         "bonds": ["b1-4", "b1-4", "a1-2"]
     },
@@ -429,7 +429,7 @@
     "ser_27" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "whaK", "wzy", "whaL", "wzx", "wcyS", "wcrN", "HG270-", "rmlA", "rmlC", "rmlB", "rmlD", "tnp", "aliA"],
         "sugars": ["glucose", "rhamnose", "galactose", "N-acetylglucosamine", "pyruvate"],
-        "side branches": ["", "choline", "", "", ""],
+        "side branches": ["", "side_choline", "", "", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["b1-4", "a1-4", "b1-3", "4,6(S)"]
     },
@@ -465,7 +465,7 @@
     "ser_32F" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "wcyH", "wzy", "wcyI", "wchQ", "wzx", "wcyS", "wcrN", "HG272-", "rmlA", "rmlC", "rmlB", "rmlD", "tnp", "aliA"],
         "sugars": ["glucose", "rhamnose", "glucose", "rhamnose"],
-        "side branches": ["", "choline", "", ""],
+        "side branches": ["", "side_choline", "", ""],
         "modifications": ["", "2Ac", "", ""],
         "bonds": ["b1-4", "a1-4", "a1-P-2"]
     },
@@ -473,7 +473,7 @@
     "ser_32A" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wchF", "wcyH", "wzy", "wcyI", "wchQ", "wzx", "wcyS", "wcrN", "HG271-", "rmlA", "rmlC", "rmlB", "rmlD", "tnp", "aliA"],
         "sugars": ["glucose", "rhamnose", "glucose", "rhamnose"],
-        "side branches": ["", "choline", "", ""],
+        "side branches": ["", "side_choline", "", ""],
         "modifications": ["", "2Ac", "4Ac", ""],
         "bonds": ["b1-4", "a1-4", "a1-P-2"]
     },
@@ -481,7 +481,7 @@
     "ser_33F" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wciB", "wciC", "wciD", "wciE", "wciF", "wzy", "wzx", "wciG*", "glf", "wcjE-", "aliA"],
         "sugars": ["glucose", "galactose", "galactose", "galactose", "galactose"],
-        "side branches": ["", "", "P-galactose", "", ""],
+        "side branches": ["", "", "side_P-galactose", "", ""],
         "modifications": ["", "2Ac0.4", "", "", ""],
         "bonds": ["b1-3", "a1-3", "b1-3", "b1-3"]
     },
@@ -496,7 +496,7 @@
     "ser_33B" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wchA", "wciN", "wciO", "wcrC", "wciD", "wciE", "wciF", "wzy", "wzx", "wciG", "glf", "aliA"],
         "sugars": ["glucose", "ribitol", "galactose", "N-acetylgalactosamine", "galactose"],
-        "side branches": ["", "", "P-galactose", "", ""],
+        "side branches": ["", "", "side_P-galactose", "", ""],
         "modifications": ["", "", "", "", ""],
         "bonds": ["5-P-6", "a1-2", "b1-4", "b1-3"]
     },
@@ -573,9 +573,9 @@
     
     "ser_39" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wcjH", "wciB", "whaI", "wciE-", "wcrC", "wcrD", "wciF", "wzy", "wcrG", "wzx", "glf", "wcyO", "aliA"],
-        "sugars": ["", "", "", ""],
-        "modifications": ["", "", "", ""],
-        "bonds":["", "", "", ""]
+        "sugars": [],
+        "modifications": [],
+        "bonds":[]
     },
     
     "ser_40" : {
@@ -623,7 +623,7 @@
     "ser_45" : {
         "genes": ["wzg", "wzh", "wzd", "wze", "wciI", "wciJ", "wcxB", "wciL", "wcyQ", "wcxS", "wzx", "wzy", "wcyR", "gct", "fnlA", "fnlB", "fnlC", "HG273-", "tnp", "rmlA", "rmlC", "rmlB", "rmlD", "tnp", "aliA"],
         "sugars": ["N-acetylgalactosamine", "N-acetylfucosamine", "galactose", "rhamnose"],
-        "side branches": ["", "P-N-acetylglucosamine", "P-galactose", ""],
+        "side branches": ["", "side_P-N-acetylglucosamine", "side_P-galactose", ""],
         "modifications": ["", "", "", ""],
         "bonds": ["a1-3", "a1-3", "a1-3"]
     },
