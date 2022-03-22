@@ -1,4 +1,3 @@
-
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
@@ -9,6 +8,8 @@
 # IPython
 profile_default/
 ipython_config.py
+
+__pycache__
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
