@@ -3,7 +3,7 @@
 
 # # Dataset for subgroup discovery
 
-# In[22]:
+# In[43]:
 
 
 from Serotype_Data import * #Dataset of Serotypes
@@ -21,14 +21,14 @@ import pandas as pd
 import tabulate
 
 
-# In[23]:
+# In[44]:
 
 
 import json
 import os
 
 
-# In[24]:
+# In[45]:
 
 
 path = os.path.relpath('./serotypes.json')
@@ -36,7 +36,7 @@ f = open(path, 'r')
 serotypes = json.load(f)
 
 
-# In[25]:
+# In[46]:
 
 
 total_sugars = []
@@ -49,7 +49,7 @@ for key in serotypes:
             total_sugars.append(sugar)
 
 
-# In[26]:
+# In[47]:
 
 
 fre_total_sugars = dict()
@@ -63,14 +63,14 @@ for key in serotypes:
         fre_total_sugars[sugar] += 1
 
 
-# In[27]:
+# In[48]:
 
 
 li_total_sugars_keys = list(fre_total_sugars.keys())
 li_total_sugars_vals = list(fre_total_sugars.values())
 
 
-# In[28]:
+# In[49]:
 
 
 total_sugars_fre_df = pd.DataFrame({
@@ -82,7 +82,7 @@ total_sugars_fre_df
 
 # We ignore the sugars which is shown once or twice in all dataset.
 
-# In[29]:
+# In[50]:
 
 
 eli_li_total_sugars_keys = []
@@ -100,7 +100,7 @@ for index in temp_indexs:
     eli_li_total_sugars_vals.append(li_total_sugars_vals[index])
 
 
-# In[30]:
+# In[51]:
 
 
 eli_total_sugars_fre_df = pd.DataFrame({
@@ -110,13 +110,13 @@ eli_total_sugars_fre_df = pd.DataFrame({
 eli_total_sugars_fre_df.sort_values(by=['Num. of occurrence of sugar'], ascending = False, inplace = True) #Re-store inplace=True
 
 
-# In[31]:
+# In[52]:
 
 
 eli_total_sugars_fre_df
 
 
-# In[32]:
+# In[53]:
 
 
 dict_from_eli_total_sugars_fre_df = eli_total_sugars_fre_df.to_dict('list')
@@ -127,7 +127,7 @@ for sugar in dict_from_eli_total_sugars_fre_df['Sugar(s)']:
     frequent_sugar.append(sugar)
 
 
-# In[33]:
+# In[54]:
 
 
 li_sugars = dict()
@@ -137,14 +137,14 @@ for i in frequent_sugar:
     li_sugars[i][frequent_sugar.index(i)] = 1
 
 
-# In[34]:
+# In[55]:
 
 
 li_sugars_df = pd.DataFrame.from_dict(li_sugars)
 li_sugars_df
 
 
-# In[35]:
+# In[56]:
 
 
 from PairXPair_dataset import *
@@ -154,7 +154,7 @@ eli_total_pairgenes_df = eli_total_pairgenes_df.drop(['index'], axis = 1)
 eli_total_pairgenes_df
 
 
-# In[36]:
+# In[57]:
 
 
 li_pairgenes = dict()
@@ -163,7 +163,7 @@ for pairgenes in eli_total_pairgenes_df['Pair of genes']:
     li_pairgenes[pairgenes] = [0]*9
 
 
-# In[37]:
+# In[58]:
 
 
 temp_sugar_loc = dict()
@@ -181,7 +181,7 @@ for i in range(len(eli_total_pairgenes_df['Pair of genes'])):
         temp_sugar_loc[pairgenes].append(sugar_loc)
 
 
-# In[38]:
+# In[59]:
 
 
 for pairgenes in li_pairgenes:
@@ -192,13 +192,13 @@ for pairgenes in li_pairgenes:
             li_pairgenes[pairgenes][j] = 1 
 
 
-# In[39]:
+# In[60]:
 
 
 li_pairgenes
 
 
-# In[40]:
+# In[61]:
 
 
 li_rmlANrmlC = list(li_pairgenes.get(('rmlA', 'rmlC')))
@@ -218,7 +218,7 @@ li_wchKNwchL = list(li_pairgenes.get(('wchK', 'wchL')))
 li_wchLNwchM = list(li_pairgenes.get(('wchL', 'wchM')))
 
 
-# In[41]:
+# In[62]:
 
 
 sub_df = li_sugars_df
@@ -239,7 +239,7 @@ sub_df["(wchK, wchL)"] = li_wchKNwchL
 sub_df["(wchL, wchM)"] = li_wchLNwchM
 
 
-# In[42]:
+# In[63]:
 
 
 sub_df
