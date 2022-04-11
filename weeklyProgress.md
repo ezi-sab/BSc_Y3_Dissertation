@@ -40,16 +40,16 @@
     * Week04
         > 'Serotype_RuleFinder' _Declaration of rules between serotypes
     * Week05
-    	> Build the files which consist of functions I need for the project
+    	> Build the files which consist of data and functions I need for the project
     * Week06
-
+	> Data Processing
+	
+	> Subgroup Discovery
     * Week07
-
+    	> Subgroup Discovery
     * Week08
-
+    	> Prepare Demonstration 
     * Week09
-
-    * Week10
-
-    * Week11
-
+    	> Updated all files as final
+    	
+    	> Prepare the report for project
