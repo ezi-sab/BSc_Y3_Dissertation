@@ -6,12 +6,6 @@
 # In[1]:
 
 
-# from Serotype_Data import *
-
-# from Bio.Seq import Seq
-# from Bio.pairwise2 import format_alignment
-# from Bio import pairwise2
-
 import numpy as np
 import tabulate
 
@@ -46,14 +40,7 @@ def simplify_genes(gene_list):
     return new_list
 
 
-# ##### Pairwise sequence alignment
-# https://readiab.org/pairwise-alignment.html
-# 
-# Fundamental problems is determining how similar a pair of biological sequences are.
-# 
-# We’ll explore why determining biological sequence similarity is harder than it might initially seem, and learn about pairwise sequence alignment, the standard approach for determining sequence similarity.
-
-# In[3]:
+# In[1]:
 
 
 def show_compare(h_sequence, v_sequence, data, hide_zeros=False, nonzero_val=None):

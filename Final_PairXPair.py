@@ -11,6 +11,7 @@ from Final_Functions import *
 import numpy as np
 import pandas as pd
 import tabulate
+import dataframe_image as dfi
 
 
 # In[2]:
@@ -38,8 +39,6 @@ serotypes = json.load(f)
 
 simply_genes = [] #Store gene sequences of serotype which is simplified
 lin_sugars = [] #Store sugar structure of serotype
-# genes_pair = [] #Pair of genes in sequence
-# sugars_pair = []  #Pair of sugars in sequence
 
 wholePairs_data = dict() #Store pairgene-pairs of sugars in each serotype
 
@@ -61,18 +60,12 @@ for key in serotypes:
         li_sugars_pair.append(lin_sugars[i+1])
         
         sugars_pair.append(li_sugars_pair)
-        
-#    print(key, sugars_pair) #Check pairs of sugars
-#    print(key, lin_sugars) #Check the sugars in each serotype
-    
+
     genes_sugars_pairs = dict()
     for x in range(len(simply_genes)-1):
         genes_sugars_pairs[(simply_genes[x], simply_genes[x+1])] = sugars_pair
         
     wholePairs_data[key] = genes_sugars_pairs
-      
-    #print(key, genes_sugars_pairs)
-      
             
 
 
@@ -294,18 +287,10 @@ show_compare(pairgene_cols, pairsugar_rows, data)
 # In[17]:
 
 
-# Set maximum num of rows & cols
-#pd.set_option('display.max_rows', None)
-#pd.set_option('display.max_columns', None)
-
-
-# In[18]:
-
-
 li_pairs_genes = list(wholePairs.keys()) #Pairs of genes
 
 
-# In[19]:
+# In[18]:
 
 
 #Check how many times the pairs of genes appear in dataset
@@ -322,21 +307,11 @@ for key in serotypes:
     # with serotypes which have own sugar structure
     # simplify the gene sequence
     simply_genes = simplify_genes(serotypes[key]['genes'])
-#     # copy the [key]['sugars'] as local 
-#     lin_sugars = serotypes[key]['sugars']
-    
+ 
     p_genes = [] # Store genes as pair for test
     for i in range(len(simply_genes)-1):
         p_genes.append((simply_genes[i], simply_genes[i+1]))
-    
-    # print(p_genes) #List of tuple of pair of genes
-    
-#     p_sugars = [] # Store sugars as pair for test
-#     for j in range(len(lin_sugars)-1):
-#          p_sugars.append((lin_sugars[j], lin_sugars[j+1]))
-            
-    # print(p_sugars) #List of tuples of pair of sugars
-    
+
     for j in range(len(p_genes)):
         for pairgenes in li_pairs_genes:
             if not pairgenes == p_genes[j]:
@@ -346,13 +321,13 @@ for key in serotypes:
                 
 
 
-# In[20]:
+# In[19]:
 
 
 li_total_pair_genes_vals = list(fre_pairgenes.values())
 
 
-# In[21]:
+# In[20]:
 
 
 store_genes = []
@@ -371,7 +346,7 @@ for pairgenes in li_pairs_genes:
         li_store_sugars.append(store_sugars)
 
 
-# In[22]:
+# In[21]:
 
 
 pair_occur = [0]*1194
@@ -382,7 +357,7 @@ for genes in fre_pairgenes:
     pair_occur[i] = fre_pairgenes[genes]
 
 
-# In[23]:
+# In[22]:
 
 
 pair_processing = [0]*1194
@@ -420,14 +395,14 @@ for key in serotypes:
                         #print("==", p_genes[k], p_sugars[r], li_store_sugars[li_store_genes.index(x)])                       
 
 
-# In[24]:
+# In[23]:
 
 
 li_pair_occur = list(pair_occur)
 li_pair_processing = list(pair_processing)    
 
 
-# In[25]:
+# In[24]:
 
 
 pair_processing_without_one = []
@@ -445,7 +420,7 @@ for i in pair_processing_without_one:
         li_pair_processing_without_one.append(i)
 
 
-# In[26]:
+# In[25]:
 
 
 ser_pair_processing = ['']*1194
@@ -490,7 +465,7 @@ for key in serotypes:
                             ser_pair_processing[p] = list(ser_pair_processing[p]) + toy_list
 
 
-# In[37]:
+# In[26]:
 
 
 modify_ser_pair_processing = ['']*1194
@@ -510,7 +485,7 @@ for i in range(len(ser_pair_processing)):
 li_ser_pair_processing = modify_ser_pair_processing
 
 
-# In[38]:
+# In[27]:
 
 
 total_pairgenes_df_with_ser = pd.DataFrame({
@@ -519,14 +494,13 @@ total_pairgenes_df_with_ser = pd.DataFrame({
     'Num. of occurrence of pair of gene (Written in front of each pair of genes)': li_pair_occur,
     'Num. of occurrence where pair of sugars processing (included observation)': li_pair_processing,
     'Num. of occurrence where pair of sugars processing (without observation)': li_pair_processing_without_one,
-    #"Num. of occurrence where the pairs of sugars are absent":
     'Serotype(s) where processing pair of genes and sugars': li_ser_pair_processing
 })
 
 total_pairgenes_df_with_ser
 
 
-# In[40]:
+# In[28]:
 
 
 total_pairgenes_df_with_ser = total_pairgenes_df_with_ser.sort_values(by=['Num. of occurrence where pair of sugars processing (without observation)'], 
@@ -538,7 +512,7 @@ total_pairgenes_df_with_ser
 
 # Eliminate the elements which only appear in observation
 
-# In[45]:
+# In[29]:
 
 
 total_pairgenes_df_remove_fre = pd.DataFrame({
@@ -550,7 +524,7 @@ total_pairgenes_df_remove_fre = pd.DataFrame({
 })
 
 
-# In[46]:
+# In[30]:
 
 
 eli_li_store_genes = []#li_store_genes 
@@ -578,7 +552,7 @@ for indexs in li_indexs:
     eli_li_ser_pair_processing.append(li_ser_pair_processing[indexs])
 
 
-# In[49]:
+# In[31]:
 
 
 eli_total_pairgenes_df_remove_fre = pd.DataFrame({
@@ -592,7 +566,7 @@ eli_total_pairgenes_df_remove_fre = pd.DataFrame({
 eli_total_pairgenes_df_remove_fre
 
 
-# In[50]:
+# In[32]:
 
 
 eli_total_pairgenes_df_remove_fre = eli_total_pairgenes_df_remove_fre.sort_values(by=['Num. of occurrence where pair of sugars processing (without observation)'], 
