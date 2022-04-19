@@ -1,46 +1,31 @@
-# Final Year Project
+# 2021/2022 Final Year Project
+:mortar_board: 2021/2022 Final Year Project 
+
+This repository consists of the contents for my project. 
+Below description illustrates in details. 
 
 :file_folder: Data files
-* Serotype_Data.py
-    > Serotype dataset
+* serotypes.json
+    > Dataset of serotypes of S.pneumoniae
 
-* Serotype_Functions.py
-    > Functions
+* Final_Functions.py
+    > Basic functions for project
 
-* PairXPair_dataset.py
-    > Pair genes and Pair sugars
+* Final_PairXPair.py
+    > Data consists of Pair genes and Pair sugars
 
-* sub_dataset.py
-    > Subgroup dataset for PreFinal_Sub.ipynb
+* Final_Dataset_43X9.py
+    > Subgroup dataset for Final_Dataset_43X9.ipynb
 
-* subgroup_dataset.py
-    > Subgroup dataset PreFinal_Subgroup.ipynb
+:bookmark_tabs: Experiments
 
-:memo: main branch : Files for Final
- Final_Env.ipynb
-    > Environment for project
+The 'Final_Subgroup_43X9.ipynb' is the key file that I used for subgroup discovery. To run 'Final_Subgroup_43X9.ipynb', you need to prepare Python environment.
 
-* Final_OneXOne.ipynb 
-    > One gene and One sugar (by observation)
+* Create a python virtual environment named .venv 'python -m venv .venv'
+* Activate your python virtual environment 
 
-* Final_PairXPair.ipynb
-  > Pair genes and Pair sugars
-
-* Final_Subgroup.ipynb 
-    > Subgroup discovery with 9 frequent sugars and 43 pairs of pair of genes
-
-:memo: preFinal branch : Draft files for Final
-* PreFinal_Env.ipynb
-    > Environment for project
-
-* PreFinal_OneXOne.ipynb 
-    > One gene and One sugar (by observation)
-
-* PreFinal_PairXPair.ipynb
-  > Pair genes and Pair sugars
-
-* PreFinal_Sub.ipynb 
-    > Subgroup discovery with 9 frequent sugars and 15 pairs of pair of genes
-
-* PreFinal_Subgroup.ipynb 
-    > Subgroup discovery with 9 frequent sugars and 43 pairs of pair of genes
+    Mac/Linux 'source .venv/bin/activate' 
+    
+    Windows '.venv/Scripts/activate.bat'
+* Install 'pysubgroup' packages to run 'Final_Subgroup_43X9.ipynb'  'pip install pysubgroup'
+                        
