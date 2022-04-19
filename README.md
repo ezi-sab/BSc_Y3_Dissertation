@@ -1,5 +1,4 @@
-# 2021/2022 Final Year Project
-:mortar_board: 2021/2022 Final Year Project 
+# :mortar_board: 2021/2022 Final Year Project
 
 This repository consists of the contents for my project. 
 Below description illustrates in details. 
