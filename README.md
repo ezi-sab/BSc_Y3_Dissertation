@@ -18,13 +18,13 @@ Below description illustrates in details.
 
 :bookmark_tabs: Experiments
 
-The 'Final_Subgroup_43X9.ipynb' is the key file that I used for subgroup discovery. To run 'Final_Subgroup_43X9.ipynb', you need to prepare Python environment.
+The `Final_Subgroup_43X9.ipynb` is the key file that I used for subgroup discovery. To run `Final_Subgroup_43X9.ipynb`, you need to prepare Python environment.
 
-* Create a python virtual environment named .venv 'python -m venv .venv'
+* Create a python virtual environment named .venv `python -m venv .venv`
 * Activate your python virtual environment 
 
-    Mac/Linux 'source .venv/bin/activate' 
+    Mac/Linux `source .venv/bin/activate`
     
-    Windows '.venv/Scripts/activate.bat'
-* Install 'pysubgroup' packages to run 'Final_Subgroup_43X9.ipynb'  'pip install pysubgroup'
+    Windows `.venv/Scripts/activate.bat`
+* Install `pysubgroup` packages to run `Final_Subgroup_43X9.ipynb`  `pip install pysubgroup`
                         
